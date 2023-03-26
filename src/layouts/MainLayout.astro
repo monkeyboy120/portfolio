@@ -1,5 +1,10 @@
 ---
 import Navbar from "../components/Navbar.svelte";
+export interface Props {
+  title: string;
+}
+
+const {title} = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -8,7 +13,7 @@ import Navbar from "../components/Navbar.svelte";
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>{title}</title>
   </head>
   <body class="bg-[#DDD0C8] text-[#323232]">
     <Navbar client:load />
