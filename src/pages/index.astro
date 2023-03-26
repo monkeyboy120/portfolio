@@ -3,7 +3,7 @@ import { Image } from "@astrojs/image/components";
 import MainLayout from "../layouts/MainLayout.astro";
 ---
 
-<MainLayout>
+<MainLayout title="Home">
   <div class="flex flex-row w-full p-10">
     <div class="flex flex-col justify-center w-1/2 ml-0 mt-10">
       <h1 class="text-6xl p-10">Welcome to <br />JoshuaLa.com</h1>
@@ -23,6 +23,7 @@ import MainLayout from "../layouts/MainLayout.astro";
         alt="Astro and Svelte logo"
         width={500}
         height={500}
+        class=" rounded-xl"
       />
     </div>
   </div>

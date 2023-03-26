@@ -2,7 +2,6 @@
   let open = false;
   const toggle = () => {
     open = !open;
-    console.log(open);
   };
 </script>
 
