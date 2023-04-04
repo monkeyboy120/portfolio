@@ -5,7 +5,7 @@
   };
 </script>
 
-<div class="w-full flex flex-row">
+<div class="w-full flex flex-row absolute">
   <h1
     class="mr-auto p-4 text-4xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text"
   >
