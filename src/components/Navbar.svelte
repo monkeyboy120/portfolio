@@ -12,7 +12,7 @@
     Joshua La
   </h1>
   <a href="/" class="p-6 text-xl ">Home</a>
-  <div class="p-6 text-xl " on:mouseenter={toggle} on:mouseleave={toggle}>
+  <div class="p-6 text-xl w-40" on:mouseenter={toggle} on:mouseleave={toggle}>
     Portfolio 
     {#if open}
       <div class="flex flex-col">
