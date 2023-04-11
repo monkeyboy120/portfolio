@@ -1,7 +1,8 @@
 ---
 import InProgress from "../components/InProgress.astro";
+import PhotoSlide from "../components/PhotoSlide.svelte";
 import MainLayout from "../layouts/MainLayout.astro";
 
 ---
 
-<MainLayout title="Photography"><InProgress></InProgress></MainLayout>
+<MainLayout title="Photography"><PhotoSlide client:load></PhotoSlide></MainLayout>

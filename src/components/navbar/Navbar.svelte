@@ -32,7 +32,7 @@
   </h1>
   <a href="/" class="p-6 text-xl cursor-pointer transition duration-300 ease-out transform-gpu hover:scale-105 hover:underline">Home</a>
   <div
-    class="p-6 text-xl w-40"
+    class="p-6 text-xl w-40 transition duration-300 ease-out transform-gpu hover:scale-105"
     on:mouseenter={toggle}
     on:mouseleave={toggle}
     on:touchend={toggle}
