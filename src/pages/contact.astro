@@ -5,42 +5,37 @@ import MainLayout from "../layouts/MainLayout.astro";
 <MainLayout title="Contact">
   <div class="isolate px-6 py-24 sm:py-32 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
-      <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">
-        Contact Me!
-      </h2>
+      <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Contact Me!</h2>
     </div>
     <form
-      action="https://api.staticforms.xyz/submit"
-      method="post"
+      action="https://api.web3forms.com/submit"
+      method="POST"
       class="mx-auto mt-16 max-w-xl sm:mt-20"
     >
       <input
         type="hidden"
-        name="accessKey"
-        value="c68e80ee-0db4-450e-bf1b-5ef5ccadd9cc"
+        name="access_key"
+        value="502556c7-9f9e-4d9c-a372-2b2aea3b38eb
+        "
       />
-      <input type="hidden" name="redirectTo" value="https://joshuala.com/" />
+
       <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
         <div class="sm:col-span-2">
-          <label
-            for="name"
-            class="block text-sm font-semibold leading-6 "
+          <label for="name" class="block text-sm font-semibold leading-6"
             >Name</label
           >
           <div class="mt-2.5">
             <input
               type="text"
-              name="first-name"
-              id="first-name"
+              name="name"
+              id="name"
               autocomplete="given-name"
               class="block w-full rounded-md border-0 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
             />
           </div>
         </div>
         <div class="sm:col-span-2">
-          <label
-            for="email"
-            class="block text-sm font-semibold leading-6"
+          <label for="email" class="block text-sm font-semibold leading-6"
             >Email</label
           >
           <div class="mt-2.5">
@@ -54,9 +49,7 @@ import MainLayout from "../layouts/MainLayout.astro";
           </div>
         </div>
         <div class="sm:col-span-2">
-          <label
-            for="message"
-            class="block text-sm font-semibold leading-6"
+          <label for="message" class="block text-sm font-semibold leading-6"
             >Message</label
           >
           <div class="mt-2.5">
@@ -76,6 +69,7 @@ import MainLayout from "../layouts/MainLayout.astro";
           >Let's talk</button
         >
       </div>
+      <input type="hidden" name="redirect" value="https://joshuala.com/" />
     </form>
   </div>
 </MainLayout>
